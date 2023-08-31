@@ -17,7 +17,7 @@ const DrinkDetailPage = ({}) => {
   return (
     <>
       <Drink
-        title={"drinkData"}
+        title={drinkData.drinkName}
         date={formatDate(drinkData.dateOfEntry)}
         description={
           drinkData.drinkDescription.json.content[0].content[0].value
