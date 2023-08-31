@@ -10,6 +10,10 @@ const DrinkDetailPage = ({}) => {
   const { drinkData } = location.state;
 
   console.log(drinkData);
+  // Challenge 4
+  // It seems that when we select something from our menu, it doesn't work, can we fix that?
+  // - A. our image isn't present
+  // - B. some of our titles aren't present
   return (
     <>
       <Drink
