@@ -1,5 +1,18 @@
 article {
     text-align: center;
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+article:hover {
+    background-color: darkgrey;
+    transition: .2s;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(3, 111, 227);
 }
 
 .title { 
