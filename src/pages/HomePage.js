@@ -27,6 +27,8 @@ const query = `{
     }
   }
 }`;
+// Challenge 1
+// Our screen hasn't loaded, we have an error, something is undefined, let's fix it
 
 const HomePage = () => {
   const [post, setPost] = useState([]);
@@ -44,10 +46,10 @@ const HomePage = () => {
       body: JSON.stringify({ query }),
     })
       .then((response) => response.json())
-      .then(({ data, errors }) => {
+      .then(({ data, err }) => {
         if (err) {
           console.log(err);
-          setError(errors);
+          setError(err);
         }
 
         setPost(data.drinkEntryCollection.items);
