@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 // https://www.contentful.com/developers/docs/javascript/tutorials/getting-started-with-react-and-contentful/
 // https://www.contentful.com/developers/docs/tutorials/general/graphql/
 
+// Challenge 1
+// Our screen hasn't loaded, we have an error, something is undefined, let's fix it
+
 // Challenge 2
 // We need these to fetch data, where do we find these in the Contetnful web app?
 const SPACE_ID = "i5378jx5vby9";
@@ -27,14 +30,12 @@ const query = `{
     }
   }
 }`;
-// Challenge 1
-// Our screen hasn't loaded, we have an error, something is undefined, let's fix it
 
 const HomePage = () => {
   const [post, setPost] = useState([]);
   const [error, setError] = useState(null);
 
-  // Challenge 1
+  // Challenge 4
   // Our data isn't being fetched, not sure why - can you help us?
   useEffect(() => {
     fetch(`https://graphql.contentful.com/content/v1/spaces/${SPACE_ID}/`, {
