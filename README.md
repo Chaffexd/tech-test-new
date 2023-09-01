@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# The Contentful Tech Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This challenge composes content for our fictional drinks menu, it looks like it's broken at the moment so we need to fix it. There are 6-8 challenges that focus on a few key areas of JavaScript and Contentful.
 
-## Available Scripts
+The idea of the challenge isn't to stump you in any way but purely to see how you would troubleshoot an issue live. I hope you enjoy the challenge and we can look at fixing our drinks menu together!
 
-In the project directory, you can run:
+**Helpful links:**
+- [Getting Started with React and Contentful](https://www.contentful.com/developers/docs/javascript/tutorials/getting-started-with-react-and-contentful/)
+- [GraphQL in Contentful](https://www.contentful.com/developers/docs/tutorials/general/graphql/)
 
-### `npm start`
+## Challenge 1
+- Our screen hasn't loaded, we have an error, something is undefined, let's fix it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Challenge 2
+- We need these to fetch data, where do we find these in the Contentful web app?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Challenge 3
+- Something is up with our query it seems, our data doesn't fetch or load, what is it?
 
-### `npm test`
+## Challenge 4
+- Our data isn't being fetched, not sure why - can you help us?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Challenge 5
+- It seems that when we select something from our menu, it doesn't work, can we fix that?
+  - A. our image isn't present
+  - B. some of our titles aren't present
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Challenge 6
+- Our dates are messed up for our drink entries, can you help us figure out why?
