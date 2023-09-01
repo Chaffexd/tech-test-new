@@ -14,8 +14,6 @@ Problem takes place in HomePage.js
 
 - Our screen hasn't loaded, we have an error, something is undefined, let's fix it.
 
-Now the page should load
-
 ## Challenge 2
 
 - Something is up with our query it seems, our data doesn't fetch or load, what is it?
