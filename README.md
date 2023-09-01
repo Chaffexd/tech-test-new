@@ -8,22 +8,38 @@ The idea of the challenge isn't to stump you in any way but purely to see how yo
 - [Getting Started with React and Contentful](https://www.contentful.com/developers/docs/javascript/tutorials/getting-started-with-react-and-contentful/)
 - [GraphQL in Contentful](https://www.contentful.com/developers/docs/tutorials/general/graphql/)
 
+Problem takes place in HomePage.js
+
 ## Challenge 1
+
 - Our screen hasn't loaded, we have an error, something is undefined, let's fix it.
 
-## Challenge 2
-- We need these to fetch data, where do we find these in the Contentful web app?
+Now the page should load
 
-## Challenge 3
+## Challenge 2
+
 - Something is up with our query it seems, our data doesn't fetch or load, what is it?
 
+Challenge takes place in DrinkDetail.js
+
+## Challenge 3
+
+- Great, we have our data but our drink names just say “drink”
+
 ## Challenge 4
-- Our data isn't being fetched, not sure why - can you help us?
+
+- It seems that when we select something from our menu, it doesn't work, can we fix that?
+    - A. our image isn't present - the same issue as before, missing a prop it isn’t “imageHere”
+    - B. our titles just say “drink”, why? 
+
+Challenge takes place in DrinkDetailPage.js
 
 ## Challenge 5
-- It seems that when we select something from our menu, it doesn't work, can we fix that?
-  - A. our image isn't present
-  - B. some of our titles aren't present
+
+- Our dates are messed up for our drink entries, can you help us figure out why?
+
+Challenge takes place in the Contentful web app
 
 ## Challenge 6
-- Our dates are messed up for our drink entries, can you help us figure out why?
+
+- It looks like we’re missing some entries, can you help us figure out why?
