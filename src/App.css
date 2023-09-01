@@ -28,6 +28,10 @@ main {
   margin-bottom: 4em;
 }
 
+main div {
+  width: 90%;
+}
+
 h1 {
   text-align: center;
 }
