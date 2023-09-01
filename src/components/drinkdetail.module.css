@@ -1,0 +1,12 @@
+.card {
+    width: 80%;
+    text-align: center;
+}
+
+.img {
+    height: 400px;
+}
+
+.title {
+    color: rgb(3, 111, 227)
+}

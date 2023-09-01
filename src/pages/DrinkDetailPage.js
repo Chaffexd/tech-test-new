@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, Link, useLocation } from "react-router-dom";
-import Drink from "../components/Drink";
+import DrinkDetail from "../components/DrinkDetail";
 
 const DrinkDetailPage = ({}) => {
   const params = useParams();
@@ -10,13 +10,13 @@ const DrinkDetailPage = ({}) => {
   const { drinkData } = location.state;
 
   console.log(drinkData);
-  // Challenge 4
+  // Challenge 5
   // It seems that when we select something from our menu, it doesn't work, can we fix that?
   // - A. our image isn't present
   // - B. some of our titles aren't present
   return (
     <>
-      <Drink
+      <DrinkDetail
         title={drinkData.drinkName}
         date={formatDate(drinkData.dateOfEntry)}
         description={

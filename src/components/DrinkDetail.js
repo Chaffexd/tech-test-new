@@ -1,16 +1,15 @@
 import React from "react";
-import classes from './drink.module.css';
+import classes from './drinkdetail.module.css';
 
-const Drink = ({ title, description, date, image, alt }) => {
-
+const DrinkDetail = ({ title, description, date, image, alt }) => {
   return (
-    <article className={classes.card}>
+    <div className={classes.card}>
       <h1 className={classes.title}>{title}</h1>
       <p>{date}</p>
       <p>{description}</p>
       <img src={image} alt={alt} className={classes.img} />
-    </article>
+    </div>
   );
 };
 
-export default Drink;
+export default DrinkDetail;
