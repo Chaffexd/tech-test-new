@@ -1,11 +1,8 @@
 import React from "react";
-import { useParams, Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import DrinkDetail from "../components/DrinkDetail";
 
 const DrinkDetailPage = ({}) => {
-  const params = useParams();
-  console.log(params);
-
   const location = useLocation();
   const { drinkData } = location.state;
 
