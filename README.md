@@ -7,6 +7,7 @@ The idea of the challenge isn't to stump you in any way but purely to see how yo
 **Helpful links:**
 - [Getting Started with React and Contentful](https://www.contentful.com/developers/docs/javascript/tutorials/getting-started-with-react-and-contentful/)
 - [GraphQL in Contentful](https://www.contentful.com/developers/docs/tutorials/general/graphql/)
+- [The Contentul Drink Menu](https://tech-test-new.vercel.app/)
 
 Problem takes place in HomePage.js
 
