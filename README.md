@@ -4,8 +4,6 @@ This challenge composes content for our fictional drinks menu, it looks like it'
 
 The idea of the challenge isn't to stump you in any way but purely to see how you would troubleshoot an issue live. I hope you enjoy the challenge and we can look at fixing our drinks menu together!
 
-[The project is live here](https://tech-test-new.vercel.app/)
-
 **Helpful links:**
 - [Getting Started with React and Contentful](https://www.contentful.com/developers/docs/javascript/tutorials/getting-started-with-react-and-contentful/)
 - [GraphQL in Contentful](https://www.contentful.com/developers/docs/tutorials/general/graphql/)
